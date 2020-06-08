@@ -5,7 +5,7 @@
 
 [[redirects]]
   from = "/rsbrepoch"
-  to = "/.netlify/functions/hello"
+  to = "/.netlify/functions/game_date"
   status = 200
   force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
