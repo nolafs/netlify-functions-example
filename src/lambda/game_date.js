@@ -1,5 +1,7 @@
+import moment from "moment";
+
 exports.handler = async (event, context) => {
- const date = Date.now()
+ const date = moment().unix();
 
  return {
   statusCode: 200,
