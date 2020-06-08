@@ -2,3 +2,11 @@
   command = "yarn build"
   publish = "dist/client"
   functions = "dist/server"
+
+[[redirects]]
+  from = "/rsbrepoch"
+  to = "https://serene-shaw-8f1bc9.netlify.app/.netlify/functions/hello"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
