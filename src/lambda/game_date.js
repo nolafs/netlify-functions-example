@@ -5,6 +5,6 @@ exports.handler = async (event, context) => {
 
  return {
   statusCode: 200,
-  body: `${date}`
+  body: `<html><head></head><body>${date}</body></html>`
  };
 };
